@@ -5,8 +5,8 @@ import time
 for a in range(2):  #TODO LOOPE PARA INCIAR PROGRAMA E CONTAGEM DE X  A SER FEITA
         with sync_playwright() as p:
             pyautogui.PAUSE = 0.5
-            navegador = p.chromium.launch(headless=False)#TODO ABRIR NO CHROMIUM ANONIMO
-            page = navegador.new_page()#TODO ABRI NOVO NAVEGADOR
+            browser = p.chromium.launch(headless=False)#TODO ABRIR NO CHROMIUM ANONIMO
+            page = browser.new_page()#TODO ABRI NOVO NAVEGADOR
             page.goto("https://www.youtube.com/watch?v=0_rod5TcCAU")#TODO COLOCAR NA URL LINK E IR A CAMINHO DO DESTINO
             page.keyboard.press(' ')#TODO TOCAR O VIDEO NO YOUTUBE
             time.sleep(3)#TODO ESPERAR
