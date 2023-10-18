@@ -1,28 +1,54 @@
+import pyautogui
+import webbrowser
 from time import sleep
-from playwright.sync_api import sync_playwright
-with sync_playwright() as p:
-    browser = p.chromium.launch(headless=False)
-    #iphone = p.devices['iPhone 6']#todo Escolher qual dispositivos quer ver
-    sleep(3)
-    context = browser.new_context(
-        color_scheme='light',
-        #**iphone#todo ativa a tela escolhida
-        #record_video_dir='.',todo gravar a tela
-        #viewport={'width': 100, 'height': 100},todo tamanho do browser
-
-
-    )
-    sleep(3)
-    page = context.new_page()
-    sleep(3)
-    page.goto("https://dgg.gg")
-    #sleep(3)
-    #page.go_back()#todo voltar a página
-    #sleep(3)
-    #page.go_forward()#todo ir para a frente da página
-    #sleep(3)
-    #page.screenshot(path="screenshot.png", full_page=True)todo tirar print da tela
-    print(page.title())
-    sleep(3)
-    #breakpoint()
-    browser.close()
+webbrowser.open("https://adsmanager.facebook.com/adsmanager/audiences?act=1016012996344421&business_id=425651638967424&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager&breakdown_regrouping=0&date=2023-10-16_2023-10-17%2Cyesterday")
+sleep(10)
+#Botão Criar público
+pyautogui.click(142, 191)
+sleep(10)
+# Botão Público personalizado
+pyautogui.click(165, 240)
+sleep(6)
+# Botão Vídeo
+pyautogui.click(721, 511)
+sleep(6)
+# Botão Avançar
+pyautogui.click(1249, 760)
+sleep(6)
+# Botão  Engajamento  Escolha um tipo de contéudo
+pyautogui.click(1299, 372)
+sleep(3)
+# Botão 25%
+pyautogui.click(800, 522)
+sleep(1)
+# Botão 50%
+pyautogui.click(718, 618)
+sleep(1)
+# Botão 75%
+pyautogui.click(709, 675)
+sleep(1)
+# Botão 95%
+pyautogui.click(758, 737)
+sleep(1)
+#------------------
+# clique fora
+pyautogui.click(1347, 514)
+sleep(3)
+#------------------
+# Botão  Escolha Dias
+pyautogui.click(697, 577)
+sleep(3)
+#----------------
+pyautogui.keyDown('ctrl')
+sleep(2)
+pyautogui.press('a')
+sleep(2)
+pyautogui.keyUp('ctrl')
+#-------------------------
+pyautogui.write('14')
+sleep(3)
+# Botão nome do público
+pyautogui.click(740, 663)
+sleep(6)
+pyautogui.write('14 DIAS  (25%,50%,75% 95%) - VIEW ALL VIDEO')
+sleep(3)
