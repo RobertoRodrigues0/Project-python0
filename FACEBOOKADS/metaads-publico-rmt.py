@@ -1,7 +1,7 @@
 import pyautogui
 import webbrowser
 from time import sleep
-webbrowser.open("https://adsmanager.facebook.com/adsmanager/audiences?act=1016012996344421&business_id=425651638967424&tool=AUDIENCES&nav_entry_point=ads_ecosystem_navigation_menu&nav_source=ads_manager&breakdown_regrouping=0&date=2023-10-16_2023-10-17%2Cyesterday")
+webbrowser.open("https://adsmanager.facebook.com/adsmanager/audiences?act=1739738786499164&business_id=220249320645011&global_scope_id=220249320645011&breakdown_regrouping=1")
 sleep(25)
 #Botão Criar público
 pyautogui.click(142, 191)
