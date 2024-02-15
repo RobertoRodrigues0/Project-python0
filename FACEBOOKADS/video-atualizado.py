@@ -4,7 +4,7 @@ from time import sleep
 
 def criar_publico():
     # Abra a página web
-    webbrowser.open("https://adsmanager.facebook.com/adsmanager/audiences?act=1016012996344421&business_id=425651638967424&global_scope_id=425651638967424&breakdown_regrouping=1")
+    webbrowser.open("")
 
     # Aguarde o carregamento completo da página
     sleep(20)
