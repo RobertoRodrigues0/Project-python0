@@ -16,3 +16,6 @@ print("Posição do mouse:", currentMouseX, currentMouseY)
 
 
 
+
+
+
