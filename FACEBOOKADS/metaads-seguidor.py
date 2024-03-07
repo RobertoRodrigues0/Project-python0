@@ -46,7 +46,7 @@ sleep(4)
 #-------------------------
 
 #NOME DO PÚBLICO -10
-pyautogui.write('[SEGUIDORES]')
+pyautogui.write('TODOS OS SEGUIDORES')
 #ENGAJAMENTO
 #VISITAS
 #SEGUIDORES

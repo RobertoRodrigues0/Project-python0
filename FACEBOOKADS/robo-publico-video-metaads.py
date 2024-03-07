@@ -45,15 +45,19 @@ sleep(3)
 pyautogui.click(1222, 311)
 sleep(5)
 #-----------
+
+
 #--------------- Escolha do Instagram ou Pagina Facebook
 pyautogui.click(750,210)
 sleep(4)
 #-----------
 #--------------- Escolha do Opção Instagram
 pyautogui.click(517,307)
-sleep(4)
+sleep(7)
 #-----------
 
+#----------------------------------------------
+#----------------------------------------------
 #--------------- Seleção de Qual é o Instagram
 pyautogui.click(1164, 220)
 sleep(2)
@@ -62,6 +66,8 @@ sleep(2)
 pyautogui.click(931, 310)
 sleep(3)
 #-----------
+#----------------------------------------------
+#----------------------------------------------
 
 #Diminuir tamanha de tela
 pyautogui.keyDown('ctrl')
@@ -71,9 +77,9 @@ sleep(3)
 #-----------
 #cliquei baixar scroll baixo
 pyautogui.click(1492, 980)
-sleep(3)
+sleep(5)
 #---------------
-for b in range(6):
+for b in range(8):
     for i in range(1):
         pyautogui.click(483, 931)
         sleep(2)
@@ -91,22 +97,28 @@ for b in range(6):
         pyautogui.click(1144, 211)
         sleep(4)
 #----------------------
-#Voltar 100% tamanho da pagina
-pyautogui.keyDown('ctrl')
-pyautogui.press('+')
-pyautogui.keyUp('ctrl')
-sleep(3)
+        #Voltar 100% tamanho da pagina
+        pyautogui.keyDown('ctrl')
+        pyautogui.press('+')
+        pyautogui.keyUp('ctrl')
+        sleep(3)
 #----------------------
-#Ultima seleção de videos
-pyautogui.click(430, 427)
-sleep(4)
+        #Ultima seleção de videos
+        pyautogui.click(430, 427)
+        sleep(4)
+        #pyautogui.click(428, 555)
+        #sleep(4)
 #----------------------
-#salvar videos
-pyautogui.click(1488, 1015)
-sleep(4)
+        #salvar videos
+        pyautogui.click(1488, 1015)
+        sleep(4)
 #---------------------
 #----------------Salvo o primeira ABA
 #---------------------
+
+
+
+
 
 
 #-----Manutenção--------
@@ -125,6 +137,7 @@ sleep(4)
 pyautogui.click(750,210)
 sleep(4)
 #-----------
+
 #--------------- Escolha do Instagram
 pyautogui.click(517,307)
 sleep(4)
@@ -139,7 +152,7 @@ sleep(3)
 pyautogui.click(1492, 980)
 sleep(4)
 #---------------
-for b in range(6):
+for b in range(8):
     for i in range(1):
         pyautogui.click(483, 931)
         sleep(2)
@@ -166,6 +179,8 @@ sleep(3)
 #Ultima seleção de videos
 pyautogui.click(430, 427)
 sleep(4)
+#pyautogui.click(428, 555)
+#sleep(4)
 #----------------------
 #salvar videos
 pyautogui.click(1488, 1015)
@@ -175,10 +190,14 @@ sleep(4)
 
 
 
+
 #--------------- Escolher Preenchimento de qual videos porcentagem 75%
 pyautogui.click(1218, 482)
 sleep(4)
 #-----------
+
+
+
 #--------------- Escolha do Instagram ou Pagina Facebook
 pyautogui.click(750,210)
 sleep(4)
@@ -197,7 +216,7 @@ sleep(3)
 pyautogui.click(1492, 980)
 sleep(4)
 #---------------
-for b in range(6):
+for b in range(8):
     for i in range(1):
         pyautogui.click(483, 931)
         sleep(2)
@@ -224,13 +243,15 @@ sleep(3)
 #Ultima seleção de videos
 pyautogui.click(430, 427)
 sleep(4)
+#pyautogui.click(428, 555)
+#sleep(4)
 #----------------------
 #salvar videos
 pyautogui.click(1488, 1015)
 sleep(4)
 #---------------------
-#----------------Salvo o primeira ABA
-#----------------Salvo o Seguda ABA
+#----------------Salvo o Terceira ABA
+#----------------Salvo o Terceira ABA
 #------------------
 
 
@@ -256,7 +277,7 @@ sleep(3)
 pyautogui.click(1492, 980)
 sleep(4)
 #---------------
-for b in range(6):
+for b in range(8):
     for i in range(1):
         pyautogui.click(483, 931)
         sleep(2)
@@ -283,13 +304,15 @@ sleep(3)
 #Ultima seleção de videos
 pyautogui.click(430, 427)
 sleep(4)
+#pyautogui.click(428, 555)
+#sleep(4)
 #----------------------
 #salvar videos
 pyautogui.click(1488, 1015)
 sleep(4)
 #---------------------
-#----------------Salvo o primeira ABA
-#----------------Salvo o Seguda ABA
+#----------------Salvo o Quarta ABA
+#----------------Salvo o Quarta ABA
 
 
 
@@ -302,20 +325,25 @@ sleep(4)
 pyautogui.keyDown('ctrl')
 pyautogui.press('a')
 pyautogui.keyUp('ctrl')
-pyautogui.write('90')
+pyautogui.write('210')
 sleep(4)
 # Botão nome do público
 pyautogui.click(669, 805)
 sleep(4)
-pyautogui.write('90 DIAS  (25%,50%,75%, 95%) - VIEW ALL VIDEO')
+pyautogui.write('210 DIAS  (25%,50%,75%, 95%) - VIEW ALL VIDEO')
 sleep(4)
 #------------------
+
 #salvar videos
 pyautogui.click(1288, 952)
 sleep(5)
 #------------------
 
-
+pyautogui.keyDown('ctrl')
+pyautogui.press('w')
+pyautogui.keyUp('ctrl')
+sleep(14)
+breakpoint()
 #-------
 #----
 #------------------

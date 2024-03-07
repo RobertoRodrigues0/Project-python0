@@ -18,13 +18,14 @@ sleep(3)
 pyautogui.click(1252, 763)
 sleep(7)
 #-----------
+#------------------
 #Botão Escolher Opção Instagram -5
 pyautogui.click(1207, 345)
 sleep(2)
 #Botão Seleçao Instagram -6
 pyautogui.click(717, 458)
 sleep(2)
-
+#------------------
 #------------------
 #Botão Seleçao Instagram -7
 pyautogui.click(1206, 416)
@@ -382,8 +383,7 @@ sleep(2)
 pyautogui.click(1180, 790)
 sleep(4)
 #------------------
-
-
+#CRIAR UM PUPLICO SEMELHANTE DEPOIS DE CRIAR O PRIMEIRO
 pyautogui.click(915, 716)
 sleep(5)
 #------------------

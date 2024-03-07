@@ -55,10 +55,6 @@ sleep(3)
 pyautogui.write('7 DIAS MENSAGENS')
 sleep(3)
 pyautogui.keyUp('capslock')
-#ENGAJAMENTO
-#VISITAS
-#SEGUIDORES
-#MENSAGENS
 sleep(2)
 #------------------
 #Botão Criar Público -13

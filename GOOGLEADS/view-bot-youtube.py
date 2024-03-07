@@ -5,7 +5,7 @@ for a in range(2): #todo for python abrir páginas do navegador
             sleep(5)
             navegador = p.chromium.launch(headless=False)
             page = navegador.new_page()
-            page.goto("https://www.youtube.com/watch?v=0_rod5TcCAU")
+            page.goto("")
             page.keyboard.press(' ')
             sleep(189)
             #for c in range(4):#todo for python aumentar o volume
